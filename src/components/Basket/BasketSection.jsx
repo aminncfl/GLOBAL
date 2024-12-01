@@ -19,6 +19,7 @@ const BasketSection = () => {
         {products && products.map(item => {
             return <div>
                 <img src={item.thumbnail} alt="" />
+                <p>{item.count}</p>
                 <p>{item.title}</p>
                 
             </div>
